@@ -45,3 +45,22 @@ main{
     position: relative;
     bottom: 22px;
 }
+
+/* FOOTER */
+footer{
+    background-color: rgb(59, 59, 59);
+    height: 10vh;
+    color: white;
+}
+footer > div > div{
+    display: inline-block;
+}
+
+footer > div{
+    width: 33%;
+    display: inline-block;
+}
+
+#color-green{
+    color: rgb(3, 181, 3);
+}
