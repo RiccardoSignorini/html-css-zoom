@@ -54,13 +54,38 @@ footer{
 }
 footer > div > div{
     display: inline-block;
+    padding-right: 8px;
 }
 
 footer > div{
-    width: 33%;
     display: inline-block;
+    padding-top: 20px;
 }
 
 #color-green{
     color: rgb(3, 181, 3);
+}
+
+.center{
+    text-align: center;
+    flex-direction: column;
+}
+
+#gran-1{
+    width: 30%;
+}
+
+#gran-2{
+    width: 55%;
+    margin-right: 4%;
+}
+
+#gran-3{
+    width: 10%;
+}
+
+#button-end{
+    background-color: rgb(84, 84, 84);
+    opacity: 0.9;
+    color: red;
 }
